@@ -23,6 +23,11 @@ Source2:        ppl_c.h
 Source3:        pwl.hh
 Patch0:         ppl-0.10.2-Makefile.patch
 Patch1:		ppl-0.10.2-gmp-5.0.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  gmp-devel >= 4.1.3, gmpxx-devel >= 4.1.3, m4 >= 1.4.8
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
